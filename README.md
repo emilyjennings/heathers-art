@@ -1,5 +1,7 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+This is a project made for an artist I was put in touch with, who needs to display her art for the purpose of contacting galleries and for teaching her students.
+
 ## Available Scripts
 
 In the project directory, you can run:
