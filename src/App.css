@@ -3,32 +3,27 @@
   color: black;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
+/* Cards */
+
+.cardborder {
+  display: inline-block;
+  float: left;
+  width: 33.33%;
 }
 
-.App-header {
-  /* background-color: #282c34; */
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.imageborder {
+  width: 60%;
+  margin: 40px 20%;
+  height: 250px;
+  overflow: hidden;
+  border: 1px solid #d1a1cf;
+  border-radius: 5px;
+  box-shadow: 2px 4px #d1a1cf;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.imageborder img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: 80% 20%;
 }
