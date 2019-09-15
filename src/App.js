@@ -7,6 +7,8 @@ import Gallery1 from './components/Gallery1'
 import Gallery2 from './components/Gallery2'
 import Contact from './components/Contact'
 import About from './components/About'
+import Footer from './components/Footer'
+import Header from './containers/Header'
 
 class App extends Component {
 
@@ -14,13 +16,16 @@ class App extends Component {
     return (
       <BrowserRouter>
         <div className="app">
-         <MainGallery />
+
+          <Header />
 
           <Route exact path="/" component={MainGallery} />
           <Route exact path="/gallery1" component={Gallery1} />
           <Route exact path="/gallery2" component={Gallery2} />
           <Route exact path="/contact" component={Contact} />
           <Route exact path="/about" component={About} />
+
+          <Footer />
 
         </div>
       </BrowserRouter>
