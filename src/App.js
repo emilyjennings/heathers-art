@@ -10,6 +10,12 @@ import About from './components/About'
 import Footer from './components/Footer'
 import Header from './containers/Header'
 
+import { library } from '@fortawesome/fontawesome-svg-core'
+import { faChevronUp, faTimes } from '@fortawesome/free-solid-svg-icons'
+
+library.add(faChevronUp, faTimes)
+
+
 class App extends Component {
 
   render() {
