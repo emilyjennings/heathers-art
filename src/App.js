@@ -12,8 +12,9 @@ import Header from './containers/Header'
 
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { faChevronUp, faTimes } from '@fortawesome/free-solid-svg-icons'
+import { faInstagram, faLinkedin, faFacebook } from '@fortawesome/free-brands-svg-icons'
 
-library.add(faChevronUp, faTimes)
+library.add(faChevronUp, faTimes, faInstagram, faLinkedin, faFacebook)
 
 
 class App extends Component {

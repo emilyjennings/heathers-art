@@ -3,7 +3,7 @@
   --subtitle-font: 'Oxygen', sans-serif;
   --rich-color: #e3a67d;
   --lighter: #faab6e;
-  --contrast: #f5c367;
+  --contrast: #f8facf;
   --background: #faedca
 }
 
@@ -46,39 +46,40 @@
 
 */
 
-.navlinks {
-  top: 0;
+.nav {
   position: fixed;
   width: 100%;
   background-color: var(--background);
-  z-index: 1
+  z-index: 1;
+  top: 0
 }
 
-.navlinks a, .navlinks a:visited {
+.navlinks {
+  top: 0;
+  float: left;
+}
+
+.socialmedia {
+  float: right;
+  top: 0;
+}
+
+.navlinks a, .navlinks a:visited, .socialmedia a, .socialmedia a:visited {
   display: inline-block;
-  font-size: 16px;
+  font-size: 18px;
   font-weight: bold;
   color: var(--rich-color);
   text-decoration: none;
   padding: 8px;
   clear: both;
   font-family: var(--subtitle-font);
+  padding-left: 13px
 }
 
-.navlinks a:hover {
+.navlinks a:hover, .socialmedia a:hover {
   color: var(--lighter);
   opacity: .5;
 }
-/*
- .hamburger {
-  display: block;
-  position: fixed;
-  width: 100%;
-  z-index: 1;
-  top: 0;
-  left: 0;
-  height: 55px;
-} */
 
  .navstick a {
   font-size: 27px;
@@ -92,23 +93,6 @@
   display: inline-block;
   display: none
 }
-
-/*
-
-.navstick a:hover {
-  background-color: #f7edf7;
-  color: #9e5299;
-}
-
-a:visited {
-  color: black
-}
-
-.navsubtitle {
-  font-family: var(--header-font), sans-serif;
-  margin-bottom: 20px;
-  font-size: 30px;
-} */
 
 
 /* Footer */
@@ -135,7 +119,7 @@ a:visited {
   display: block;
   margin: 30px auto;
   font-size: 20px;
-  border: 2px solid black;
+  border: 2px solid var(--lighter);
   border-radius: 80px;
   position: fixed;
   bottom: 15px;
@@ -146,7 +130,7 @@ a:visited {
 }
 
 .top:hover {
-  background-color: var(--rich-color);
+  background-color: var(--background);
   opacity: .5;
 }
 
@@ -388,38 +372,6 @@ img:hover {
     margin: 8px 8px;
   }
 
-  .show {
-    margin: 200px 5px;
-    font-size: 30px;
-    margin-top: 230px
-  }
-
-  .showimage {
-    width: 70%;
-    margin: 230px auto 10px auto;
-  }
-
-  .showimagewide {
-    width: 95%;
-    margin: 230px auto 10px auto;
-  }
-
-  .navbar {
-    padding: 0;
-  }
-
-  .backarrow {
-    left: 80px
-  }
-
-  .forwardarrow {
-    right: 80px
-  }
-
-  #six img {
-    transform: scale(1.4);
-  }
-
 
 
 }
@@ -450,22 +402,15 @@ img:hover {
     text-align: center;
   }
 
-  .navlinks a {
-    font-size: 18px;
+  .navlinks a, .socialmedia a {
+    font-size: 17px;
     margin: 10px 7px;
+    padding-left: 5px
   }
 
-  .navstick a {
-    font-size: 23px;
-    margin: 20px 7px;
-  }
-
-  .navstick a {
-    margin-top: 4px
-  }
-
-  .navstick {
-    height: 45px
+  .emily {
+    background: white;
+    padding: 5px 0
   }
 
   .emily a {
