@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import $ from 'jquery'
 
-import image1 from '../containers/images/image1.jpeg'
+import image1 from '../containers/images/image1.jpg'
 import image2 from '../containers/images/image2.jpeg'
 import image3 from '../containers/images/image3.jpeg'
 

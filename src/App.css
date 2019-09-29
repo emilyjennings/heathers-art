@@ -12,7 +12,7 @@
   font-size: 60px;
   font-family: var(--header-font), cursive;
   padding: 20px auto 0 auto;
-  margin-top: 10px;
+  margin-top: 20px;
   color: var(--rich-color);
   text-align: center
 }
@@ -46,21 +46,22 @@
 */
 
 .navlinks {
-  text-align: center;
+  top: 0;
+  position: fixed;
+  width: 100%;
+  background-color: var(--lighter);
+  z-index: 1
 }
 
 .navlinks a {
   display: inline-block;
-  font-size: 15px;
+  font-size: 16px;
   font-weight: bold;
   color: var(--contrast);
   text-decoration: none;
-  border: 1px solid var(--contrast);
-  padding: 5px;
-  border-radius: 5px;
+  padding: 8px;
   clear: both;
-  margin: 20px;
-  font-family: var(--subtitle-font)
+  font-family: var(--subtitle-font);
 }
 
 .navlinks a:hover {
@@ -376,7 +377,7 @@ img:hover {
   opacity: 1
 }
 
-@media only screen and (max-width: 1195px) {
+@media only screen and (max-width: 1000px) {
   .imageborder {
     max-height: 180px
   }
@@ -418,6 +419,8 @@ img:hover {
     transform: scale(1.4);
   }
 
+
+
 }
 
 @media only screen and (max-width: 900px) {
@@ -433,18 +436,22 @@ img:hover {
   }
 
   .navtitle {
-    font-size: 38px;
+    font-size: 45px;
     padding: 0;
-    margin: 20px 0 2px 0;
+    margin: 60px 0 2px 0;
   }
 
   .navsubtitle {
     font-size: 20px;
   }
 
+  .navlinks {
+    text-align: center;
+  }
+
   .navlinks a {
-    font-size: 23px;
-    margin: 20px 7px;
+    font-size: 18px;
+    margin: 10px 7px;
   }
 
   .navstick a {
