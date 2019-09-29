@@ -1,9 +1,10 @@
 :root {
   --header-font: 'Pacifico', serif;
   --subtitle-font: 'Oxygen', sans-serif;
-  --rich-color: #8e33e8;
-  --lighter: #cc8bcc;
-  --contrast: #4f3e8c
+  --rich-color: #e3a67d;
+  --lighter: #faab6e;
+  --contrast: #f5c367;
+  --background: #faedca
 }
 
 /* Header */
@@ -49,15 +50,15 @@
   top: 0;
   position: fixed;
   width: 100%;
-  background-color: var(--lighter);
+  background-color: var(--background);
   z-index: 1
 }
 
-.navlinks a {
+.navlinks a, .navlinks a:visited {
   display: inline-block;
   font-size: 16px;
   font-weight: bold;
-  color: var(--contrast);
+  color: var(--rich-color);
   text-decoration: none;
   padding: 8px;
   clear: both;
@@ -65,11 +66,8 @@
 }
 
 .navlinks a:hover {
-  background-color: var(--lighter);
-  color: var(--contrast);
+  color: var(--lighter);
   opacity: .5;
-  border: 1px solid var(--lighter);
-
 }
 /*
  .hamburger {
@@ -116,7 +114,7 @@ a:visited {
 /* Footer */
 
 .emily {
-  font-family: var(--subtitle-font);
+  font-family: var(--header-font);
   width: 100%;
   position: fixed;
   text-align: center;
@@ -220,6 +218,7 @@ i {
   box-shadow: 5px 10px var(--lighter);
   height:auto;
   overflow: scroll;
+  background-color: var(--background);
 }
 
 .name_field, .message_field, .email_field, .submit {
