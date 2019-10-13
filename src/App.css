@@ -13,7 +13,7 @@
   font-size: 60px;
   font-family: var(--header-font), cursive;
   padding: 20px auto 0 auto;
-  margin-top: 20px;
+  margin-top: 25px;
   color: var(--rich-color);
   text-align: center
 }
@@ -195,7 +195,7 @@ i {
   color: black;
   width: 40%;
   text-align: center;
-  margin: 100px auto 30px auto;
+  margin: 50px auto 30px auto;
   padding: 20px;
   border: 1px solid var(--lighter);
   border-radius: 5px;
@@ -217,23 +217,43 @@ i {
   color: var(--rich-color);
   text-decoration: none;
   border: 1px solid var(--rich-color);
-  padding: 5px;
+  padding: 10px;
   border-radius: 5px;
   clear: both;
   margin: 20px auto;
+  font-family: var(--subtitle-font)
 }
 
-.message_field {
-  height: 200px
+input, textarea {
+  color: var(--rich-color);
+  font-style: var(--subtitle-font);
+  background-color: var(--contrast);
+  display: block;
+  margin: 5px auto;
+  border-radius: 5px;
+  border: 1px solid var(--rich-color);;
+}
+
+.input-row-1 {
+  margin-bottom: 30px
+}
+
+textarea {
+  height: 120px
 }
 
 form {
-  font-size: 23px
+  font-size: 23px;
+  font-family: var(--subtitle-font);
+  color: var(--rich-color);
+  font-weight: bold;
 }
 
 .formcaption {
   font-size: 28px;
   margin-bottom: 20px;
+  font-family: var(--header-font);
+  color: var(--rich-color);
 }
 
 #submit:hover {

@@ -27,8 +27,8 @@ class App extends Component {
           <Header />
 
           <Route exact path="/" component={MainGallery} />
-          <Route exact path="/gallery1" component={Gallery1} />
-          <Route exact path="/gallery2" component={Gallery2} />
+          <Route exact path="/mermaids" component={Gallery1} />
+          <Route exact path="/forsale" component={Gallery2} />
           <Route exact path="/contact" component={Contact} />
           <Route exact path="/about" component={About} />
 

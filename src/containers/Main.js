@@ -8,6 +8,14 @@ import ShowPage from '../components/ShowPage.js'
 import image1 from './images/image1.jpg'
 import image2 from './images/image2.jpeg'
 import image3 from './images/image3.jpeg'
+import image4 from './images/IMG_7817.jpg'
+import image5 from './images/IMG_7818.jpg'
+import image6 from './images/IMG_7819.jpg'
+import image7 from './images/IMG_7820.jpg'
+import image8 from './images/IMG_7821.jpg'
+import image9 from './images/IMG_7822.jpg'
+import image10 from './images/IMG_7823.jpg'
+import image11 from './images/IMG_7826.jpg'
 
 export default class MainGallery extends Component {
 
@@ -18,21 +26,77 @@ export default class MainGallery extends Component {
       images: {
         0: {
           img: image1,
-          desc: "image 1",
+          desc: "portrait",
           price: "price here",
           url: "/image1",
           id: 0
         },
         1: {
           img: image2,
-          desc: "image 2",
+          desc: "bees",
           price: "price here",
           url: "/image2",
           id: 1
         },
         2: {
           img: image3,
-          desc: "image 3",
+          desc: "goldfish",
+          price: "price here",
+          url: "/image3",
+          id: 2
+        },
+        3: {
+          img: image4,
+          desc: "mermaid",
+          price: "price here",
+          url: "/image3",
+          id: 2
+        },
+        4: {
+          img: image5,
+          desc: "mermaid",
+          price: "price here",
+          url: "/image3",
+          id: 2
+        },
+        5: {
+          img: image6,
+          desc: "plants",
+          price: "price here",
+          url: "/image3",
+          id: 2
+        },
+        6: {
+          img: image7,
+          desc: "cacti",
+          price: "price here",
+          url: "/image3",
+          id: 2
+        },
+        7: {
+          img: image8,
+          desc: "flowers",
+          price: "price here",
+          url: "/image3",
+          id: 2
+        },
+        8: {
+          img: image9,
+          desc: "clouds",
+          price: "price here",
+          url: "/image3",
+          id: 2
+        },
+        9: {
+          img: image10,
+          desc: "bees",
+          price: "price here",
+          url: "/image10",
+          id: 2
+        },
+        10: {
+          img: image11,
+          desc: "mermaid",
           price: "price here",
           url: "/image3",
           id: 2
@@ -43,7 +107,7 @@ export default class MainGallery extends Component {
   }
 
   changeHeader = () => {
-    $('.navtitle').text("Heather Cadalzo")
+    $('.navtitle').text("Heather Brown Cadalzo")
     // $('.navstick').show()
   }
 

@@ -1,12 +1,12 @@
 import React, { Component } from 'react';
 import $ from 'jquery'
 
-// import katie from './images/Katieslashrun.jpg'
+import heather from '../containers/images/heather.PNG'
 
 export default class About extends Component {
 
   changeHeader = () => {
-    $('.navsubtitle').text("about me")
+    $('.navtitle').text("About Heather")
     $('.navstick').hide()
   }
 
@@ -14,7 +14,7 @@ export default class About extends Component {
     return (
       <div className="aboutcontainer">
         <div className="aboutimage">
-          (an image of the artist here)
+          <img src={heather}></img>
         </div>
         <div className="bio">
           text content here - bio of some kind
