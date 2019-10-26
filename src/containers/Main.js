@@ -5,9 +5,9 @@ import Fade from 'react-reveal/Fade';
 
 import ShowPage from '../components/ShowPage.js'
 
-import image1 from './images/image1.jpg'
-import image2 from './images/image2.jpeg'
-import image3 from './images/image3.jpeg'
+import portrait from './images/image1.jpg'
+import bees from './images/image2.jpeg'
+import pond from './images/image3.jpeg'
 import image4 from './images/IMG_7817.jpg'
 import image5 from './images/IMG_7818.jpg'
 import image6 from './images/IMG_7819.jpg'
@@ -25,24 +25,24 @@ export default class MainGallery extends Component {
     this.state = {
       images: {
         0: {
-          img: image1,
+          img: portrait,
           desc: "portrait",
           price: "price here",
-          url: "/image1",
+          url: "/portrait",
           id: 0
         },
         1: {
-          img: image2,
+          img: bees,
           desc: "bees",
           price: "price here",
-          url: "/image2",
+          url: "/bees",
           id: 1
         },
         2: {
-          img: image3,
-          desc: "goldfish",
+          img: pond,
+          desc: "pond",
           price: "price here",
-          url: "/image3",
+          url: "/pond",
           id: 2
         },
         3: {
@@ -138,7 +138,7 @@ export default class MainGallery extends Component {
     return (
       <div className="gallery">
         <div className="projectspage">
-          {this.state.current_card != null ? <ShowPage current_card={this.state.current_card} images={this.state.images} /> : this.displayCards()}
+          {this.displayCards()}
         </div>
         <div className="noimage"></div>
       </div>

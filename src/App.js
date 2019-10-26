@@ -9,6 +9,7 @@ import Contact from './components/Contact'
 import About from './components/About'
 import Footer from './components/Footer'
 import Header from './containers/Header'
+import ShowPage from './components/ShowPage'
 
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { faChevronUp, faTimes } from '@fortawesome/free-solid-svg-icons'
@@ -31,6 +32,11 @@ class App extends Component {
           <Route exact path="/forsale" component={Gallery2} />
           <Route exact path="/contact" component={Contact} />
           <Route exact path="/about" component={About} />
+
+          <Route exact path="/portrait" component={ShowPage} />
+          <Route exact path="/bees" component={ShowPage} />
+          <Route exact path="/pond" component={ShowPage} />
+
 
           <Footer />
 
