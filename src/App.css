@@ -1,21 +1,23 @@
 :root {
-  --header-font: 'Pacifico', serif;
-  --subtitle-font: 'Oxygen', sans-serif;
+  --header-font: 'Poiret One', serif;
+  --subtitle-font: 'Nothing You Could Do', sans-serif;
+  --alt-font: 'Shadows Into Light', sans-serif;
   --rich-color: #e3a67d;
   --lighter: #faab6e;
   --contrast: #f8facf;
-  --background: #faedca
+  --background: #e4dec8
 }
 
 /* Header */
 
 .navtitle {
   font-size: 60px;
-  font-family: var(--header-font), cursive;
+  font-family: var(--header-font), sans-serif;
   padding: 20px auto 0 auto;
   margin-top: 25px;
   color: var(--rich-color);
-  text-align: center
+  text-align: center;
+  font-weight: bold
 }
 
 /* .navbar {
@@ -94,6 +96,10 @@
   display: none
 }
 
+.headercontainer {
+  padding: 60px 0;
+}
+
 
 /* Footer */
 
@@ -102,8 +108,10 @@
   width: 100%;
   position: fixed;
   text-align: center;
-  padding-bottom: 20px;
-  bottom: 0
+  padding-bottom: 5px;
+  padding-top: 3px;
+  bottom: 0;
+  background-color: white;
 }
 
 .emily a, .emily a:visited, .emily a:hover {
@@ -168,9 +176,9 @@ i {
   margin: 40px 20%;
   height: 250px;
   overflow: hidden;
-  border: 1px solid var(--lighter);
+  border: 1px solid var(--background);
   border-radius: 5px;
-  box-shadow: 3px 5px var(--lighter);
+  box-shadow: 3px 5px var(--background);
 }
 
 .imageborder img {
@@ -197,12 +205,12 @@ i {
   text-align: center;
   margin: 50px auto 30px auto;
   padding: 20px;
-  border: 1px solid var(--lighter);
+  border: 1px solid var(--background);
   border-radius: 5px;
-  box-shadow: 5px 10px var(--lighter);
+  box-shadow: 5px 10px var(--background);
   height:auto;
   overflow: scroll;
-  background-color: var(--background);
+  background-color: white;
 }
 
 .name_field, .message_field, .email_field, .submit {
@@ -216,7 +224,7 @@ i {
   font-size: 15px;
   color: var(--rich-color);
   text-decoration: none;
-  border: 1px solid var(--rich-color);
+  border: 1px solid var(--background);
   padding: 10px;
   border-radius: 5px;
   clear: both;
@@ -257,7 +265,7 @@ form {
 }
 
 #submit:hover {
-  background-color: var(--contrast);
+  background-color: var(--background);
 }
 
 .bio {
