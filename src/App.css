@@ -438,9 +438,9 @@ img:hover {
   }
 
   .navlinks a, .socialmedia a {
-    font-size: 14px;
+    font-size: 18px;
     margin: 10px 7px;
-    padding-left: 5px
+    padding: 8px
   }
 
   .emily {
@@ -559,4 +559,23 @@ img:hover {
     width: 80%
   }
 
+}
+
+
+@media only screen and (max-width: 400px) {
+  .navlinks {
+    width: 70%;
+  }
+  .socialmedia {
+    width: 30%;
+    text-align: center;
+  }
+  .navlinks a {
+    padding: 3px;
+    font-size: 18px
+  }
+  .socialmedia a {
+    padding: 3px;
+        font-size: 18px
+  }
 }
