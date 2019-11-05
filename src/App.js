@@ -3,13 +3,13 @@ import './App.css';
 import { BrowserRouter, Route } from "react-router-dom";
 
 import MainGallery from './containers/Main'
-import Gallery1 from './components/Gallery1'
-import Gallery2 from './components/Gallery2'
+import Mermaids from './components/Mermaids'
+import MiscWork from './components/MiscWork'
+import Portraits from './components/Portraits'
 import Contact from './components/Contact'
 import About from './components/About'
 import Footer from './components/Footer'
 import Header from './containers/Header'
-import ShowPage from './components/ShowPage'
 
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { faChevronUp, faTimes } from '@fortawesome/free-solid-svg-icons'
@@ -28,15 +28,11 @@ class App extends Component {
           <Header />
 
           <Route exact path="/" component={MainGallery} />
-          <Route exact path="/mermaids" component={Gallery1} />
-          <Route exact path="/forsale" component={Gallery2} />
+          <Route exact path="/mermaids" component={Mermaids} />
+          <Route exact path="/misc" component={MiscWork} />
+          <Route exact path="/portraits" component={Portraits} />
           <Route exact path="/contact" component={Contact} />
           <Route exact path="/about" component={About} />
-
-          <Route exact path="/portrait" component={ShowPage} />
-          <Route exact path="/bees" component={ShowPage} />
-          <Route exact path="/pond" component={ShowPage} />
-
 
           <Footer />
 

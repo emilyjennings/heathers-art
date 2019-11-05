@@ -108,8 +108,8 @@
   width: 100%;
   position: fixed;
   text-align: center;
-  padding-bottom: 5px;
-  padding-top: 3px;
+  padding-bottom: 8px;
+  padding-top: 5px;
   bottom: 0;
   background-color: white;
 }
@@ -337,6 +337,10 @@ img:hover {
   margin: 0;
 }
 
+.blank {
+  height: 100px;
+  clear: both;
+}
 
 /*Show Pages*/
 
@@ -421,6 +425,7 @@ img:hover {
 
   .gallery {
     margin-top: 100px;
+    margin-bottom: 50px
   }
 
   .navtitle {
