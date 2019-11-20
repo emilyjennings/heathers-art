@@ -270,7 +270,7 @@ form {
 
 .bio {
   font-size: 23px;
-  font-family: var(--subtitle-font);
+  font-family: var(--header-font);
   text-align: left;
   padding: 20px;
   line-height: 1.5em
