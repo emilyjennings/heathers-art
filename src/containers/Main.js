@@ -6,33 +6,42 @@ import Fade from 'react-reveal/Fade';
 import portrait1 from './images/portrait1.png'
 import bees from './images/bees.png'
 import mermaid4 from './images/mermaid4.png'
+import beachwalk from './images/commissions/BeachWalk.jpg'
 
 export default class MainGallery extends Component {
 
 // All of Heather's artwork is stored in state
 state = {
     images: {
-        1: {
-          img: portrait1,
-          desc: "portraits",
-          price: "price here",
-          url: "/portraits",
-          id: 0
-        },
-        2: {
-          img: bees,
-          desc: "bees",
-          price: "price here",
-          url: "/misc",
-          id: 1
-        },
         0: {
           img: mermaid4,
           desc: "mermaids",
           price: "price here",
           url: "/mermaids",
+          id: 0
+        },
+        1: {
+          img: portrait1,
+          desc: "portraits",
+          price: "price here",
+          url: "/portraits",
+          id: 1
+        },
+        2: {
+          img: bees,
+          desc: "miscellaneous work",
+          price: "price here",
+          url: "/misc",
           id: 2
         },
+        3: {
+          img: beachwalk,
+          desc: "commissions",
+          price: "price here",
+          url: "/commissions",
+          id: 3
+
+        }
       }
     }
 

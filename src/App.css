@@ -64,6 +64,7 @@
 .socialmedia {
   float: right;
   top: 0;
+  margin-right: 10px
 }
 
 .navlinks a, .navlinks a:visited, .socialmedia a, .socialmedia a:visited {
@@ -168,13 +169,13 @@ i {
 .cardborder {
   display: inline-block;
   float: left;
-  width: 33.33%;
+  width: 50%;
 }
 
 .imageborder {
   width: 60%;
   margin: 40px 20%;
-  height: 250px;
+  height: 400px;
   overflow: hidden;
   border: 1px solid var(--background);
   border-radius: 5px;
@@ -193,7 +194,7 @@ i {
   font-family: var(--subtitle-font);
   color: var(--rich-color);
   margin: 10px;
-  font-size: 20px
+  font-size: 30px
 }
 
 /* Pages */
@@ -270,7 +271,7 @@ form {
 
 .bio {
   font-size: 23px;
-  font-family: var(--header-font);
+  font-family: var(--alt-font);
   text-align: left;
   padding: 20px;
   line-height: 1.5em
@@ -302,7 +303,7 @@ form {
 }
 
 .aboutimage {
-  width: 25%;
+  width: 40%;
   display: inline-block;
   float: right;
   margin: 20px
@@ -403,15 +404,13 @@ img:hover {
 
 @media only screen and (max-width: 1000px) {
   .imageborder {
-    max-height: 180px
+    max-height: 300px
   }
 
   .title {
     font-size: 40px;
     margin: 8px 8px;
   }
-
-
 
 }
 
@@ -444,8 +443,8 @@ img:hover {
 
   .navlinks a, .socialmedia a {
     font-size: 18px;
-    margin: 10px 7px;
-    padding: 8px
+    padding: 8px;
+    margin-right: 10px
   }
 
   .emily {
