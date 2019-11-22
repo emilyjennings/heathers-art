@@ -5,6 +5,7 @@ import { BrowserRouter, Route } from "react-router-dom";
 import MainGallery from './containers/Main'
 import Mermaids from './components/Mermaids'
 import MiscWork from './components/MiscWork'
+import Commissions from './components/Commissions'
 import Portraits from './components/Portraits'
 import Contact from './components/Contact'
 import About from './components/About'
@@ -29,6 +30,7 @@ class App extends Component {
 
           <Route exact path="/" component={MainGallery} />
           <Route exact path="/mermaids" component={Mermaids} />
+          <Route exact path="/commissions" component={Commissions} />
           <Route exact path="/misc" component={MiscWork} />
           <Route exact path="/portraits" component={Portraits} />
           <Route exact path="/contact" component={Contact} />

@@ -29,7 +29,7 @@ state = {
         },
         2: {
           img: bees,
-          desc: "miscellaneous work",
+          desc: "miscellaneous",
           price: "price here",
           url: "/misc",
           id: 2
