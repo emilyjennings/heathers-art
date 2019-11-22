@@ -373,7 +373,7 @@ img:hover {
   left: 20px
 }
 
- .backarrow:hover, .forwardarrow:hover {
+.backarrow:hover, .forwardarrow:hover {
   background-color: var(--lighter);
   color: var(--contrast);
 }
