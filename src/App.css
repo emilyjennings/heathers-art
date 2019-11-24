@@ -215,12 +215,13 @@
 
 input, textarea {
   color: var(--rich-color);
-  font-style: var(--subtitle-font);
   background-color: var(--contrast);
   display: block;
   margin: 5px auto;
   border-radius: 5px;
-  border: 1px solid var(--rich-color);;
+  border: 1px solid var(--rich-color);
+  font-size: 18px;
+  font-family: var(--alt-font)
 }
 
 .input-row-1 {
@@ -251,7 +252,7 @@ form {
 
 .bio {
   font-size: 23px;
-  font-family: var(--alt-font);
+  font-family: var(--header-font);
   text-align: left;
   padding: 20px;
   line-height: 1.5em
@@ -274,7 +275,7 @@ form {
   color: black;
   text-align: center;
   width: 80%;
-  margin: 100px auto 40px auto;
+  margin: 40px auto;
   border: 1px solid var(--rich-color);
   border-radius: 5px;
   box-shadow: 5px 10px var(--rich-color);
@@ -340,6 +341,11 @@ img:hover {
   width: 50%;
   height: 400px;
   margin: auto;
+}
+
+.showimage {
+  width: 65%;
+  margin: auto
 }
 
 .showimagewide {

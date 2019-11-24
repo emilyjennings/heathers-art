@@ -5,7 +5,7 @@ import Fade from 'react-reveal/Fade';
 
 import portrait1 from './images/portrait1.png'
 import bees from './images/bees.png'
-import mermaid4 from './images/mermaid4.png'
+import mermaid4 from './images/mermaids/mermaid4.png'
 import beachwalk from './images/commissions/BeachWalk.jpg'
 
 export default class MainGallery extends Component {

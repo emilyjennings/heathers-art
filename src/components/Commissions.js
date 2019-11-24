@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
 import $ from 'jquery'
 
-import image1 from '../containers/images/bees.png'
-import image2 from '../containers/images/IMG_7820.jpg'
-import image3 from '../containers/images/IMG_7821.jpg'
-import image4 from '../containers/images/IMG_7822.jpg'
+import image1 from '../containers/images/commissions/BeachWalk.jpg'
+import image2 from '../containers/images/commissions/charcoal.jpg'
+import image3 from '../containers/images/commissions/Grandkids.jpg'
+import image4 from '../containers/images/commissions/zdeb.jpg'
 
 
 class Commissions extends Component {
@@ -14,7 +14,7 @@ class Commissions extends Component {
   }
 
   changeHeader = () => {
-    $('.navtitle').text("Mermaids")
+    $('.navtitle').text("Commissions")
   }
 
   changeImage = () => {
