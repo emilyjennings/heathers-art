@@ -11,6 +11,7 @@ import Contact from './components/Contact'
 import About from './components/About'
 import Footer from './components/Footer'
 import Header from './containers/Header'
+import Order from './components/Order'
 
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { faChevronUp, faTimes } from '@fortawesome/free-solid-svg-icons'
@@ -35,6 +36,7 @@ class App extends Component {
           <Route exact path="/portraits" component={Portraits} />
           <Route exact path="/contact" component={Contact} />
           <Route exact path="/about" component={About} />
+          <Route exact path="/order" component={Order} />
 
           <Footer />
 

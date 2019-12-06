@@ -5,10 +5,10 @@ import image1 from '../containers/images/bees.png'
 import image2 from '../containers/images/IMG_7820.jpg'
 import image3 from '../containers/images/IMG_7821.jpg'
 import image4 from '../containers/images/IMG_7822.jpg'
-import image5 from '../containers/images/bodycastingspregnancy/IMG_1461.jpg'
-import image6 from '../containers/images/bodycastingspregnancy/IMG_1462.jpg'
-import image7 from '../containers/images/bodycastingspregnancy/IMG_5990.JPG'
-import image8 from '../containers/images/bodycastingspregnancy/IMG_5992.JPG'
+import image5 from '../containers/images/bodycastingspregnancy/casting_blue_1.png'
+import image6 from '../containers/images/bodycastingspregnancy/casting_blue_2.png'
+import image7 from '../containers/images/bodycastingspregnancy/casting_orange_1.png'
+import image8 from '../containers/images/bodycastingspregnancy/casting_orange_2.png'
 
 
 class MiscWork extends Component {

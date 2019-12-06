@@ -16,6 +16,7 @@ export default class NavBar extends Component {
         <div className="navlinks">
           <Link to="/contact" onClick={() => this.scrollTop()}><div className="contactlink">Contact</div></Link>
           <Link to="/about" onClick={() => this.scrollTop()}><div className="contactlink">About</div></Link>
+          <Link to="/order" onClick={() => this.scrollTop()}><div className="contactlink">Order</div></Link>
           <Link to="/" onClick={() => this.scrollTop()}><div className="homelink">Home</div></Link>
         </div>
         <div className="socialmedia">
